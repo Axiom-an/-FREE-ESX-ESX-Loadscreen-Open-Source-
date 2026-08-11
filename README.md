@@ -2,8 +2,7 @@
 
 ---
 
-### 🔗 Links & Preview
-
-[![Preview Video](https://img.shields.io/badge/YouTube-Preview_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=A5cAyTvsHgA)
-[![Tebex Store](https://img.shields.io/badge/Tebex-Paradise_Store-00C9A7?style=for-the-badge&logo=tebex&logoColor=white)](https://paradise-store.tebex.store/)
-[![Patreon](https://img.shields.io/badge/Patreon-Support_Me-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/Andreas344)
+### 🌐 Connect & Downloads
+* 🎥 **Video Showcase:** [YouTube Preview](https://www.youtube.com/watch?v=A5cAyTvsHgA)
+* 🛒 **Official Store:** [Paradise Store on Tebex](https://paradise-store.tebex.store/)
+* 💖 **Support the Project:** [Patreon Profile](https://www.patreon.com/cw/Andreas344)
