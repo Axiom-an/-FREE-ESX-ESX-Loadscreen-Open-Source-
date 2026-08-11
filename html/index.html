@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Loading Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <audio id="bgAudio" loop></audio>
+
+    <div class="bg-slider">
+        <div class="slide active" style="background-image: url('img/bq1.png');"></div>
+        <div class="slide" style="background-image: url('img/bq2.png');"></div>
+        <div class="slide" style="background-image: url('img/bq3.png');"></div>
+    </div>
+
+    <div class="bg-overlay"></div>
+
+    <main class="main-layout">
+        <div class="center-content">
+            <img id="serverLogo" src="img/P.jpg" alt="Server Logo" onerror="this.src='img/P.png'">
+            <h1 id="serverTitle">PARADISE</h1>
+            <p class="server-subtitle">
+                <span id="welcomeMessage">WELCOME TO PARADISE</span>
+                <a href="#" id="discordButton" class="discord-inline-link" target="_blank" title="Join Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </p>
+        </div>
+
+        <div class="bottom-controls">
+            <div class="minimal-audio-controls">
+                <button id="volDownBtn" class="audio-btn icon-only" aria-label="Volume Down" title="Volume Down">
+                    <i class="fas fa-minus"></i>
+                </button>
+                <button id="muteBtn" class="audio-btn mute-main" title="Toggle Mute">
+                    <i class="fas fa-volume-up"></i> <span>Mute</span>
+                </button>
+                <button id="volUpBtn" class="audio-btn icon-only" aria-label="Volume Up" title="Volume Up">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+            
+            <div class="space-hint"><kbd>SPACE</kbd> Mute / Unmute</div>
+        </div>
+    </main>
+
+    <script src="../config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
